@@ -1,0 +1,379 @@
+li{
+    list-style-type: none;
+}
+.bites{
+    font-size:20px;
+    
+}
+body{
+    background-color: rgb(247, 242, 237);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.innerflex{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.first{
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.sec1{
+    display: flex;
+}
+.firstpart{
+    margin-left:40px;
+    /* margin-top: 0px; */
+}
+.f1{
+    font-size: 80px;
+}
+.f2{
+    display: flex;
+}
+.tags{
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+.tag1{
+    display: flex;
+    border: 1px solid white;
+    width:fit-content;
+    padding:0px 15px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    /* position: absolute; */
+}
+.sec2{
+    margin-top: 70px;
+}
+.upper2{
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    margin-left: 50px;
+    font-size: 40px;
+}
+.down{
+    margin-left: 50px;
+}
+.call{
+    /* border: 1px solid black; */
+    width: fit-content;
+    background-color: white;
+    margin: 30px;
+
+}
+.pasta{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.flex3{
+    display:flex;
+    justify-content:space-between;
+}
+.allwrap{
+    display: flex;
+
+}
+.sec3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 170px;
+    justify-content: space-between;
+}
+.sec4u{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.sec4l{
+    display: flex;
+}
+.card{
+    border: 1px solid rgb(239, 216, 173);
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.sec5u{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.sec5ut{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec5dt{
+    display: flex;
+    margin-left: 70px;
+}
+.pixe{
+    margin: 30px;
+    border: 20px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+.one{
+    display: flex;
+    border:1px solid white;
+    width: fit-content;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 2px 10px;
+    padding-bottom: 0px;
+    /* text-align: center; */
+}
+.two{
+    display: flex;
+    border:1px solid white;
+    width: fit-content;
+    background-color: rgb(239, 233, 222);
+    border-radius: 50px;
+    padding: 2px 10px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+.thank{
+    display: flex;
+}
+.secleft{
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 50px;
+    position: relative;
+    padding: 50px;
+    background-color: rgb(233, 207, 173);
+}
+.sec6{
+    display: flex;
+}
+.ommited1{
+    display: flex;
+}
+.ommitedright{
+    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 120px;
+}
+.order{
+    display: flex;
+}
+.list{
+    display: flex;
+}
+.read{
+    border: 1px solid orange;
+    /* max-width: 100px; */
+    margin: 5px 20px 5px 60px;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.list{
+    text-align: center;
+    margin-left: 40px;
+    /* margin-right: 100px; */
+    margin-top: 50px;
+}
+.ice{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:1265px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 1150px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+}
+@media(max-width:1225px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 1100px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+    .allwrap{
+        margin-top: 70px;
+        flex-wrap: wrap;
+       
+    }
+    .list{
+        flex-wrap: wrap;
+    }
+    .sec5dt{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:1172px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 1050px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+}
+@media(max-width:1068px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 1000px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+}
+@media(max-width:1000px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 930px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+}
+@media(max-width:971px){
+    .tags{
+        position: absolute;
+        top: 150px;
+        left: 850px;
+    }
+    .innerflex{
+        display: flex;
+        
+        
+    }
+    .ommited1{
+        flex-wrap: wrap;
+    }
+    .sec3{
+        flex-wrap: wrap;
+    }
+    .sec6{
+        flex-wrap: wrap;
+    }
+    .secright{
+        text-align: center;
+    }
+}
+@media(max-width:914px){
+.sec1{
+    flex-wrap: wrap;
+}    
+.sec4l{
+    flex-wrap: wrap;
+}
+.tags{
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+body{
+    margin: 0px;
+    /* background-color: black; */
+}
+.break1{
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+}
+.liam{
+    display: flex;
+    /* position:static; */
+}
+.innerflex{
+    display: block;
+}
+.flex{
+    display: block;
+    margin: 0px;
+    /* background-color: black;
+    color: white; */
+    height: 100%;
+
+}
+.tags{
+    position: absolute;
+    top: 650px;
+    left: 550px;
+}
+
+}
+@media(max-width:704px){
+    /* .tags{
+        position: absolute;
+        top: 750px;
+        left: 350px;
+    } */
+}
+
+@media(max-width:508px){
+    /* .tags{
+        position: absolute;
+        top: 850px;
+        left: 350px;
+    } */
+}
+@media(max-width:891px){
+    /* .tags{
+        position: absolute;
+        top: 150px;
+        left: 770px;
+    } */
+   
+   
+}
+@media(max-width:700px){
+    .last{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .rule{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0px;
+    }
+    .unison{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+   
+}
